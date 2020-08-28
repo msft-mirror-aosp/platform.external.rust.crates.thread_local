@@ -1,13 +1,13 @@
 name: "thread_local"
-description: "This library provides the ThreadLocal and CachedThreadLocal types which allow a separate copy of an object to be used for each thread. This allows for per-object thread-local storage, unlike the standard library's thread_local! macro which only allows static thread-local storage."
+description: "This library provides the ThreadLocal and CachedThreadLocal types which allow a separate copy of an object to be used for each thread. This allows for per-object thread-local storage, unlike the standard library\'s thread_local! macro which only allows static thread-local storage."
 third_party {
   url {
     type: HOMEPAGE
     value: "https://crates.io/crates/thread_local"
   }
   url {
-    type: GIT
-    value: "https://github.com/Amanieu/thread_local-rs"
+    type: ARCHIVE
+    value: "https://static.crates.io/crates/thread_local/thread_local-1.0.1.crate"
   }
   version: "1.0.1"
   license_type: NOTICE
