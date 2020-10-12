@@ -1,5 +1,5 @@
 name: "thread_local"
-description: "This library provides the ThreadLocal and CachedThreadLocal types which allow a separate copy of an object to be used for each thread. This allows for per-object thread-local storage, unlike the standard library\'s thread_local! macro which only allows static thread-local storage."
+description: "Per-object thread-local storage"
 third_party {
   url {
     type: HOMEPAGE
