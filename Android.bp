@@ -40,9 +40,9 @@ rust_library_host {
     name: "libthread_local",
     crate_name: "thread_local",
     srcs: ["src/lib.rs"],
-    edition: "2015",
+    edition: "2018",
     rustlibs: [
-        "liblazy_static",
+        "libonce_cell",
     ],
 }
 
@@ -52,11 +52,14 @@ rust_test_host {
     srcs: ["src/lib.rs"],
     test_suites: ["general-tests"],
     auto_gen_config: true,
-    edition: "2015",
+    test_options: {
+        unit_test: true,
+    },
+    edition: "2018",
     rustlibs: [
-        "liblazy_static",
+        "libonce_cell",
     ],
 }
 
 // dependent_library ["feature_list"]
-//   lazy_static-1.4.0
+//   once_cell-1.5.2 "alloc,default,std"
