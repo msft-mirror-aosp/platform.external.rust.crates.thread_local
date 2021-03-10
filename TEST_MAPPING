@@ -5,8 +5,13 @@
       "name": "keystore2_test"
     },
     {
+      "name": "thread_local_device_test_src_lib"
+    },
+    {
       "name": "libsqlite3-sys_device_test_src_lib"
+    },
+    {
+      "name": "vpnprofilestore_test"
     }
   ]
 }
-
