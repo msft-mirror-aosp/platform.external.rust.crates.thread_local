@@ -2,7 +2,12 @@
 {
   "presubmit": [
     {
-      "name": "thread_local_device_test_src_lib"
+      "name": "thread_local_test_src_lib"
+    }
+  ],
+  "presubmit-rust": [
+    {
+      "name": "thread_local_test_src_lib"
     }
   ]
 }
